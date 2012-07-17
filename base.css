@@ -6,9 +6,10 @@ body {
     margin: 20px;
 }
 
-.cell {
+.mc {
     width: 15px;
     height: 15px;
     display: inline-block;
+    margin-left: 5px;
     background-color: #000;
 }
