@@ -13,9 +13,8 @@ Requirements
 Implementation
 --------------
 
-Any arbitrary array of characters is accepted as an input. Input is hashed by the SHA1 hash algorithm, producing a 40-byte hashed value, which will then be processed by the output visualization method. The visualization method operates as follows:
+Any arbitrary array of characters is accepted as an input. Input is hashed by the SHA1 hash algorithm, producing a 160-bit hashed value, which will then be processed by the output visualization method. The visualization method operates as follows:
 
 
- 
 
  
