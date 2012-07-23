@@ -2,6 +2,14 @@ body {
     margin: 30px 25px 40px 25px;
 }
 
+.canvas {
+    border-width: 1px;
+    border-color: #777;
+    border-style: solid;
+    height: 250px;
+    width: 250px;
+}
+
 .mat {
     margin: 20px;
 }
