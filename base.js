@@ -18,16 +18,16 @@ gen = function(s, c) {
     var sv = v[5] / 256;
     var bv = v[6] / 256;
     r.path(['M', v[0], 0, 'L', 0, v[1], 'L', v[2], 250, 'L', 250, v[3], 'Z']).attr({
-        fill: Raphael.hsb(hv, sv, bv),
-        stroke: Raphael.hsb(hv, sv, bv)
+        fill: Raphael.hsl(hv, sv, bv),
+        stroke: Raphael.hsl(hv, sv, bv)
     });
 
     hv = v[11] / 256;
     sv = v[12] / 256;
     bv = v[13] / 256;
     r.path(['M', v[7], 0, 'L', 0, v[8], 'L', v[9], 250, 'L', 250, v[10], 'Z']).attr({
-        fill: Raphael.hsb(hv, sv, bv),
-        stroke: Raphael.hsb(hv, sv, bv),
+        fill: Raphael.hsl(hv, sv, bv),
+        stroke: Raphael.hsl(hv, sv, bv),
         'fill-opacity': (v[14] / 512) + 0.3,
         'stroke-opacity': (v[14] / 512) + 0.3
     });

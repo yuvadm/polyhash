@@ -3,9 +3,6 @@ body {
 }
 
 .canvas {
-    border-width: 1px;
-    border-color: #777;
-    border-style: solid;
     height: 250px;
     width: 250px;
 }
