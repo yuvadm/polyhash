@@ -1,7 +1,3 @@
-curve = function(x, y , ax, bx, ay, by, zx, zy, color) {
-    
-};
-
 gen = function(s, c) {
     var h = CryptoJS.SHA1(s).toString(CryptoJS.enc.Hex);
     var v = [];
@@ -31,8 +27,6 @@ gen = function(s, c) {
         'fill-opacity': (v[14] / 512) + 0.3,
         'stroke-opacity': (v[14] / 512) + 0.3
     });
-
-
 };
 
 $(document).ready(function() {
