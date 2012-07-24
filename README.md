@@ -1,7 +1,7 @@
-Hashualize
-==========
+Polyhash
+========
 
-Hashualize is an aesthetic and helpful way to visualize hash values. Remembering hashed fingerprints is very hard, and having a quick way to visually grasp hased values is of great importance.
+Polyhash is an aesthetic and helpful way to visualize hash values. Remembering hashed fingerprints is very hard, and having a quick way to visually grasp hased values is of great importance.
 
 Requirements
 ------------
@@ -13,8 +13,5 @@ Requirements
 Implementation
 --------------
 
-Any arbitrary array of characters is accepted as an input. Input is hashed by the SHA1 hash algorithm, producing a 160-bit hashed value, which will then be processed by the output visualization method. The visualization method operates as follows:
+Any arbitrary array of characters is accepted as an input. Input is hashed by the SHA1 hash algorithm, producing a 160-bit hashed value, which will then be processed by the output visualization method, which is a work in progresss.
 
-
-
- 

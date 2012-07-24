@@ -7,9 +7,8 @@ gen = function(s, c) {
         v.push(bt);
     }
 
-    console.log(v);
-    var W = 50;
-    var H = 50;
+    var W = 80;
+    var H = 80;
 
     var r = Raphael('c1', W, H);
     var hv = v[4] / 256;
@@ -41,7 +40,7 @@ randStr = function(n){
 
 
 $(document).ready(function() {
-    for (var i=0; i<100; i++) {
+    for (var i=0; i<10; i++) {
         gen(randStr(8));
     }
 });

@@ -2,6 +2,11 @@ body {
     margin: 30px 25px 40px 25px;
 }
 
+.big {
+    font-size: 8em;
+    line-height: 1.2em;
+}
+
 .mat {
     margin: 20px;
 }
